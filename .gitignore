@@ -1,0 +1,6 @@
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+results/*.rds
+results/*.hdf5
