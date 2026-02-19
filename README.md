@@ -1,4 +1,4 @@
-# Project #2: Spatial Transcriptomics Analysis of the Mouse Brain
+# Project #2: Spatial Transcriptomics Analysis of the Mouse Brain.
 
 This repository contains a spatial transcriptomics analysis of 10x Genomics Visium HD mouse brain data using Seurat and BANKSY to identify spatially restricted gene expression patterns and anatomical domains.
 
