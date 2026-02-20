@@ -343,4 +343,4 @@ save_plot_png(
   "results/figures/kegg_dotplot_hippocampus.png",
   p_kegg_hip, width = 3600, height = 2400, res = 300)
 
-message("Done! All plots have been saved as PNGs in: results/figures/")
+message("Done! All plots have been saved as PNGs in: results/figures/") 
