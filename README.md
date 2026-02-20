@@ -24,13 +24,23 @@ Determine what insights can be gained regarding gene expression in distinct regi
 - Spatially restricted clusters correspond to known anatomical regions.
 - White matter shows strong enrichment of myelination-associated genes (e.g., Plp1).
 - Hippocampus clusters are enriched for neuronal differentiation and synaptic signaling pathways.
-- KEGG enrichment highlights region-specific biological processes, with 
+- KEGG enrichment highlights region-specific biological processes, with white matter region showing enrichment of Calcium and GnRH signaling and hippocampus region showing enrichment of gap junctions.
 
 ---
 
 ## Example Outputs
-KEGG enrichment highlights region-specific biological processes, with 
-[Variance Decomposition Analysis](results/figures/03_plot_variance_explained_by_factor.png)
+
+[UMAP of clusters, segmented by domain with BANKSY](results/figures/banksy_segmented_domains.png)
+
+[Expression of various domain-specific markers](results/figures/marker_expression_snap25_hpca_gfap_tbr1.png)
+
+[White matter marker Plp1 expression accurately maps to white matter domain (clusters 0, 26)](results/figures/plp1_featureplot_plus_banksy_clusters.png)
+
+[KEGG analysis of white matter region](results/figures/kegg_dotplot_white_matter.png)
+
+[Hippocampus marker Zbtb20 expression accurately maps to hippocampus domain (clusters 24, 25, 29)](results/figures/zbtb20_featureplot_plus_banksy_clusters.png)
+
+[KEGG analysis of hippocampus region](results/figures/kegg_dotplot_hippocampus.png)
 
 ---
 
